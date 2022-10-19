@@ -6,6 +6,8 @@ import './Navbar.css'
 
 
 const Navbar = () => {
+
+
   return (
     <div>
       <div className="navbar-box">
@@ -21,9 +23,9 @@ const Navbar = () => {
               <div className="navbar-box6">
                 <ul className="navbar-ul">
                   <li className="navbar-li"><a href="/" className="navbar-a">Home</a><span></span></li>
-                  <li className="navbar-li"><a href={`/mint`} className="navbar-a">Mint</a><span></span></li>
-                  <li className="navbar-li"><a href={`/roadmap`} className="navbar-a">Roadmap</a><span></span></li>
-                  <li className="navbar-li"><a href={`/about`} className="navbar-a">About Us</a><span></span></li>
+                  <li className="navbar-li"><a href="/mint" className="navbar-a">Mint</a><span></span></li>
+                  <li className="navbar-li"><a href="/roadmap" className="navbar-a">Roadmap</a><span></span></li>
+                  <li className="navbar-li"><a href="/about" className="navbar-a">About Us</a><span></span></li>
                 </ul>
               </div>
             </div>
