@@ -1,0 +1,60 @@
+.home-box3{
+    padding: 20px;
+}
+
+.home-img{
+    width: calc(100% - 70%);
+    padding: 20px;
+}
+
+.home-box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-box2{
+    padding: 50px;
+}
+
+.home-p4{
+    padding: 20px;
+    text-align: center;
+    font-size: calc(100% + 850%);
+    color: rgb(255, 255, 255);
+    width: calc(100% - 10%);
+    margin: 0px;
+}
+
+.home-p3{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: calc(100% + 80%);
+    font-weight: 600;
+}
+
+.home-p2{
+    color: rgb(118, 118, 118);
+    padding: 0px;
+    text-align: center;
+    font-size: calc(100% + 20%);
+    font-weight: 600;
+    margin: 0px;
+}
+
+.home-box{
+    background: url(/src/Assets/Images/fondodenochediamond3.png) center bottom / cover;
+}
+
+.home-box2{
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+}
+
+.home-box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
