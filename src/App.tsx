@@ -14,9 +14,9 @@ function App() {
         <Navbar />
       </header>
       <Routes>
-        <Route index path='/' element={<Home />}></Route>
-        <Route path='/mint' element={<Mintpage />}></Route>
-        <Route path='/roadmap' element={<PageNotFound />}></Route>
+        <Route index path='/' element={<Mintpage/>}></Route>
+        <Route path='/mint' element={<Mintpage/>}></Route>
+        <Route path='/roadmap' element={<PageNotFound/>}></Route>
       </Routes>
 
 
