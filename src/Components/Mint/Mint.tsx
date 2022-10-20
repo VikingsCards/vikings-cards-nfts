@@ -29,6 +29,7 @@ import {
     SetupState,
 } from "./candy-machine";
 import './Mint.css'
+import '../css/media.css'
 
 
 
@@ -640,10 +641,10 @@ const Mint = (props: HomeProps) => {
                 <br/>
                 <MintContainer>
                     <DesContainer>
-                        <div className="mintpage-box5">
-                            <h2>Vikings Cards NFTs</h2>
+                        <div className="mintpage-box5 media-mintpage-box5">
+                            <h2 className="mint-media">Vikings Cards NFTs</h2>
                             <br/>
-                            <div><Price
+                            <div className="mintpage-box6"><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
                                 src="cool-cats.gif"
                                 alt="NFT To Mint"/></div>

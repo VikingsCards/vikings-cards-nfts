@@ -1,6 +1,8 @@
 import React from 'react'
 import GIF from '../../Assets/Images/20221015_180501.gif'
+import '../css/media.css'
 import './Home.css'
+
 
 const Home = () => {
 
@@ -12,7 +14,7 @@ const Home = () => {
                     <div className="home-box3">
                         <div className="home-box4">
                             <div className="home-box5">
-                                <img src={GIF} alt="GIF-Logo" className="home-img" />
+                                <img src={GIF} alt="GIF-Logo" className="home-img media-home-img" />
 
 
                                 <div className="home-box6">

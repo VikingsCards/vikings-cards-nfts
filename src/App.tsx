@@ -16,8 +16,9 @@ function App() {
       <Routes>
         <Route index path='/' element={<Home/>}></Route>
         <Route path='/mint' element={<Mintpage/>}></Route>
-        <Route path='/roadmap' element={<PageNotFound/>}></Route>
-        <Route path='/about' element={<PageNotFound/>}></Route>
+        <Route path='/404=:roadmap' element={<PageNotFound/>}></Route>
+        <Route path='/404=:about' element={<PageNotFound/>}></Route>
+        <Route path='/404=:about' element={<PageNotFound/>}></Route>
       </Routes>
 
 
