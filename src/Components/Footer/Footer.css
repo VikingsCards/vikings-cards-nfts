@@ -11,6 +11,7 @@
 
 .footer-p {
     color: rgb(57, 57, 57);
+    font-weight: 600;
 }
 
 .footer-box {
@@ -21,4 +22,19 @@
 
 .footer-box{
     padding: 0px 20px;
+}
+
+.footer-a{
+    color: #ffffff;
+
+}
+
+.footer-a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.icon-community{
+    font-size: 20px;
+    padding: 10px;
 }
