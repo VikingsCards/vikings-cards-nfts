@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
-import Logo from '../../Assets/Images/logo1.png'
+import Logo from '../../Assets/Images/Logo001.png'
 import './Navbar.css'
 import '../css/media.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
